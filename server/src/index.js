@@ -17,7 +17,7 @@ const io = new Server(server, {
 });
 
 app.use(cors({
-  origin: ["http://localhost:5173"],
+  origin: ["http://localhost:5173","https://real-time-expert-session-booking-sy-six.vercel.app"],
   credentials: true
 }));
 app.use(express.json());
